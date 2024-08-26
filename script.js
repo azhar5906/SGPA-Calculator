@@ -68,10 +68,10 @@
 
         if (hasFailGrade) {
             document.getElementById('modalTitle').innerText = "Oops!";
-            document.getElementById('modalMessage').innerHTML = `Unfortunately, you have a fail grade.<br>Your CGPA is: <span id="cgpaResult">${cgpa.toFixed(2)}</span>`;
+            document.getElementById('modalMessage').innerHTML = `Unfortunately, you have a fail grade.<br>Your SGPA is: <span id="cgpaResult">${cgpa.toFixed(2)}</span>`;
         } else {
             document.getElementById('modalTitle').innerText = "Congratulations!";
-            document.getElementById('modalMessage').innerHTML = `Your CGPA is: <span id="cgpaResult">${cgpa.toFixed(2)}</span>`;
+            document.getElementById('modalMessage').innerHTML = `Your SGPA is: <span id="cgpaResult">${cgpa.toFixed(2)}</span>`;
         }
 
         openModal('successModal');
