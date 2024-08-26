@@ -6,11 +6,18 @@
             min-height: 100vh;
             margin: 0;
             padding: 0;
-            background-color: #5151b3;
+            background-image: url(stars.avif);
         }
 
         .container {
-            background-color: #b2bfe8;
+            /* background-color: #b2bfe8; */
+            background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 20px );
+-webkit-backdrop-filter: blur( 20px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+color: aliceblue;
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(1, 52, 234, 0.1);
